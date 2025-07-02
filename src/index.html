@@ -8,11 +8,17 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>DoneDesk.io</title>
 </head>
+
+
   <body class="relative  min-h-screen w-full bg-gradient-to-b from-indigo-950 to-black p-4 before:absolute  before:inset-0 z-2 before:bg-[length:80px_80px] before:bg-[linear-gradient(to_right,white_1px,transparent_0.5px),linear-gradient(to_bottom,white_1px,transparent_0.5px)] before:opacity-10 before:pointer-events-none "> 
 
+
+    <!-- header and app name area  -->
   <header>
         <h1 class="font-bold mx-auto text-5xl text-white container mt-5">DoneDesk.io</h1>
   </header>
+
+
 
   <div class="container mx-auto mt-10 h-15 w-full "> 
     <!-- input area -->
@@ -23,14 +29,21 @@
     
    <!-- clear task button -->
     <button id="clrTaskBtn" class="h-10 w-10 z-10 cursor-pointer bg-amber-500 rounded-3xl text-white mx-5 transition transform active:scale-95"><i class="fa-regular fa-circle-xmark"></i></button>
-
   </div>
   
-  <!-- taskarea -->
-  <div class="container mx-auto h-screen rounded-3xl z-10 opacity-30 border-2 border-white w-full bg-gray-400 ">
 
+
+
+  <!-- taskarea -->
+  <div id="taskList" class="container mx-auto h-screen rounded-3xl z-10 border-2 border-white w-full bg-gray-800 ">
+  
+    
+    
   </div>
 
+
+
+  <!-- footer area -->
   <footer class="w-full mt-10 py-4 text-center text-gray-400 text-sm z-10">
   <p>© 2025 <span class="font-semibold text-white">DoneDesk.io</span> — Built for clarity and speed.</p>
   <p class="mt-1">
@@ -44,4 +57,5 @@
 
 
 </body>
+<script src="app.js"></script>
 </html>
