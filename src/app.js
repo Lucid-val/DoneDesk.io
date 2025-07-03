@@ -3,6 +3,7 @@ const addTaskBtn = document.getElementById("addTaskBtn")
 const taskList = document.getElementById("taskList");
 const clrTaskBtn = document.getElementById("clrTaskBtn")
 
+
 function addTask() {
   const taskText = taskInput.value.trim();
   if (taskText === "") return;
@@ -33,6 +34,8 @@ function addTask() {
 
   taskList.appendChild(taskDiv);
   taskInput.value = "";
+
+
 }
 
 
