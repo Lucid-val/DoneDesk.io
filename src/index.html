@@ -41,22 +41,25 @@
   </style>
 </head>
 
-<body class="font-grotesk relative min-h-screen w-full bg-gradient-to-b from-indigo-950 to-black p-4 before:absolute before:inset-0 z-2 before:bg-[length:80px_80px] before:bg-[linear-gradient(to_right,white_1px,transparent_0.5px),linear-gradient(to_bottom,white_1px,transparent_0.5px)] before:opacity-10 before:pointer-events-none"> 
+<body style="font-family: 'Space Grotesk', sans-serif; font-weight: bold;" class="relative min-h-screen w-full bg-gradient-to-b from-indigo-950 to-black p-4 before:absolute before:inset-0 z-2 before:bg-[length:80px_80px] before:bg-[linear-gradient(to_right,white_1px,transparent_0.5px),linear-gradient(to_bottom,white_1px,transparent_0.5px)] before:opacity-10 before:pointer-events-none"> 
 
   <!-- header and app name area  -->
   <header>
-    <h1 class="font-bold mx-auto text-5xl text-white container mt-5">DoneDesk.io</h1>
+    <h1 class="mx-auto text-5xl text-white container mt-5">DoneDesk.io</h1>
   </header>
 
   <div class="container mx-auto mt-10 h-15 w-full flex items-center"> 
     <!-- input area -->
-    <input type="text" placeholder="Enter your task here..." class="flex-grow bg-white h-10 w-1/2 rounded-lg px-5 text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-3 focus:ring-indigo-500 shadow-sm" id="taskInput">
+    <input type="text" placeholder="Enter your task here..." class="flex-grow bg-white h-10 w-1/3 rounded-lg px-5 text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-3 focus:ring-indigo-500 shadow-sm" id="taskInput">
 
     <!-- add task button -->
-    <button id="addTaskBtn" class="h-10 w-10 ml-5 z-10 cursor-pointer bg-indigo-500 rounded-full text-white transition transform active:scale-95 hover:bg-indigo-600"><i class="fa-solid fa-plus"></i></button>
+    <button id="addTaskBtn" title="Add task" class="h-10 w-10 ml-5 z-10 cursor-pointer bg-indigo-500 rounded-lg text-white transition transform active:scale-95 hover:bg-indigo-600"><i class="fa-solid fa-plus"></i></button>
     
     <!-- clear task button -->
-    <button id="clrTaskBtn" class="h-10 w-10 z-10 cursor-pointer bg-amber-500 rounded-full text-white mx-5 transition transform active:scale-95 hover:bg-amber-600"><i class="fa-regular fa-circle-xmark"></i></button>
+    <button id="clrTaskBtn" title="Clear Task" class="h-10 w-10 z-10 cursor-pointer bg-amber-500 rounded-lg text-white mx-5 transition transform active:scale-95 hover:bg-amber-600"><i class="fa-regular fa-circle-xmark"></i></button>
+
+    <!-- clear all tasks button -->
+    <button id="clrAllBtn" title="Clear All Tasks" class="h-10 w-10 z-10 cursor-pointer bg-red-500 rounded-lg text-white transition transform active:scale-95 hover:bg-red-600 disabled:opacity-50 disabled:cursor-not-allowed"><i class="fa-solid fa-trash"></i></button>
   </div>
   
   <!-- taskarea -->
@@ -67,7 +70,7 @@
   </div>
   
   <!-- footer area -->
-    <footer class="w-full mt-10 py-4 text-center text-gray-400 text-sm z-10">
+    <footer class="w-full mt-5 py-4 text-center text-gray-400 text-sm z-10">
     <p>© 2025 <span class="font-semibold text-white">DoneDesk.io</span> — Built for clarity and speed.</p>
     <p class="mt-1">
       Designed & Developed by 
