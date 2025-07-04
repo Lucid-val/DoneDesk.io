@@ -5,7 +5,7 @@
 
 It helps users stay organized by enabling them to quickly add, delete, and manage daily tasks — all within a distraction-free interface.
 
-> ⚙️ **Dev Note:** A React-powered Version 2 of DoneDesk.io is planned with theme support and more features!
+> ⚙️ **Dev Note:** A Version 2 of DoneDesk.io is planned with theme support and more UI features!
 
 ---
 
