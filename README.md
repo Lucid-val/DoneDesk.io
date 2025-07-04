@@ -80,7 +80,6 @@ DoneDesk.io/
 - [x] Responsive layout  
 - [x] Minimalist branding with logo  
 - [ ] **[Planned]** Theme toggle support (v2)  
-- [ ] **[Planned]** React-based refactor (v2)  
 
 ---
 
