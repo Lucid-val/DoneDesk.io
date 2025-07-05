@@ -58,11 +58,10 @@ npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
 
 ```
 DoneDesk.io/
-├── src/
-│   ├── index.html
-│   ├── input.css
-│   ├── output.css
-│   ├── app.js
+├── index.html
+├── input.css
+├── output.css
+├── app.js
 ├── tailwind.config.js
 ├── README.md
 ├── package.json
