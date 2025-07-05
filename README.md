@@ -1,7 +1,7 @@
-
 # ✅ DoneDesk.io
 
-**DoneDesk.io** is a clean and minimalist task management app built using **vanilla HTML**, **Tailwind CSS**, and **JavaScript**.
+**DoneDesk.io** is a clean and minimalist task management app built using **vanilla HTML**, **Tailwind CSS**, and **JavaScript**.  
+🔗 **Live Site:** [https://lucid-val.github.io/DoneDesk.io](https://lucid-val.github.io/DoneDesk.io)
 
 It helps users stay organized by enabling them to quickly add, delete, and manage daily tasks — all within a distraction-free interface.
 
@@ -38,57 +38,11 @@ It helps users stay organized by enabling them to quickly add, delete, and manag
 
 ## 📦 Getting Started
 
+🔗 **Live Demo:** [https://lucid-val.github.io/DoneDesk.io](https://lucid-val.github.io/DoneDesk.io)
+
 To run this locally:
 
 ```bash
 git clone https://github.com/your-username/DoneDesk.io.git
 cd DoneDesk.io
 # Open index.html in browser (you can use Live Server in VS Code)
-```
-
-Make sure Tailwind is compiled to `output.css`. If not:
-
-```bash
-npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
-```
-
----
-
-## 📁 Folder Structure
-
-```
-DoneDesk.io/
-├── index.html
-├── input.css
-├── output.css
-├── app.js
-├── tailwind.config.js
-├── README.md
-├── package.json
-└── assets/
-    └── logo.svg
-```
-
----
-
-## 🎯 Roadmap
-
-- [x] Add/Edit/Delete Task UI  
-- [x] Inline editing with keyboard support  
-- [x] LocalStorage sync  
-- [x] Responsive layout  
-- [x] Minimalist branding with logo  
-- [ ] **[Planned]** Theme toggle support (v2)  
-
----
-
-## 📄 License
-
-This project is for learning and personal use. For professional use or contributions, feel free to fork or reach out via GitHub.
-
----
-
-## ✨ Designed & Built by
-
-**Agnik Chakraborty**  
-[GitHub](https://github.com/Lucid-val)
